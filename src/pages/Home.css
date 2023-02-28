@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
+#main{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+#navbar {
+  color: white;
+  overflow: auto;
+  font-size: 16px;
+  font-family: 'Secular One', sans-serif;
+  /**font-family: 'Francois One', sans-serif;**/
+}
+.head{
+  position: fixed;
+  top: 10px;
+  color: #ffffff;
+  width: 100%;
+  padding-left: 50px;
+}
+#navbar .logo {
+  float: left;
+  width: 230px;
+  padding-top: 13px;
+  padding-right: 5px;
+}
+#navbar ul li {
+  float: left;
+  margin-top: 28px;
+  padding-left: 40px;
+}
+#navbar ul li a {
+  display: inline-block;
+  text-align: center;
+}
+#navbar .admin{
+  margin-top: 28px;
+  float: right;
+  padding-right: 60px;
+}
+.img{
+  width: 100%;
+  height: 700px;
+}
+.sub-div{
+  font-family: 'Kanit', sans-serif;
+  font-size: 17.5px;
+  line-height: 2em;
+}
+.text1{
+  position: absolute;
+  top: 960px;
+  color: black;
+  padding-left: 50px;
+  inline-size: 750px;
+  overflow-wrap: break-word;
+  text-align: justify;
+}
+/*.text2{
+  position: absolute;
+  top: 1645px;
+  color: white;
+  padding-left: 50px;
+  inline-size: 750px;
+  overflow-wrap: break-word;
+  text-align: justify;
+}*/
+.text3{
+  position: absolute;
+  top: 1645px;
+  color: white;
+  padding-left: 50px;
+  inline-size: 750px;
+  overflow-wrap: break-word;
+  text-align: justify;
+}
+div.text1, div .text2, div .text3 {
+  width:50%;
+  overflow:hidden;
+}
+div.text1 p, div.text2 p, div .text3 p{
+  padding-top: 10px;
+  padding-bottom: 25px;
+}

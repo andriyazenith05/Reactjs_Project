@@ -1,0 +1,157 @@
+#RS_nav {
+  overflow: auto;
+  background-color: rgb(212, 217, 250);
+  font-size: 18.5px;
+  font-family: 'Secular One', sans-serif;
+}
+#RS_nav ul li {
+  float: left;
+  padding: 8px;
+  padding-left: 180px;
+}
+#RS_nav ul li a {
+  color: rgb(3, 7, 27);
+  display: inline-block;
+  text-align: center;
+}
+.sec_style{
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+#div1_style{
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+#div1_style h3{
+  padding-bottom: 5px;
+}
+#div1_style hr{
+  margin-bottom: 15px;
+}
+.span1{
+  padding-left: 80px;
+  padding-right: 80px;
+  color: rgb(3, 7, 27);
+  font-weight: bolder;
+}
+#sec1 label{
+  padding-right: 10px;
+  font-size: 15.5px;
+}
+#sec1 input{
+  padding: 5px;
+  width: 170px;
+  font-size: 14.5px;
+  border: 2px solid rgb(149, 156, 196);
+  border-radius: 2px;
+  background-color: rgb(212, 217, 250);
+}
+#sec1 .objco input{
+  width: 130px;
+  font-size: 14px;
+  color: #000;
+}
+#sec1 .res{
+  margin-top: 30px;
+  padding: 18px;
+  background-color: rgb(3, 10, 44);
+  border-radius: 10px;
+  text-align: center;
+}
+#sec1 .res label{
+  color: white;
+  font-weight: bold;
+  font-size: 16.5px;
+}
+#sec1 .res input{
+  width: 150px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(2, 12, 70);
+  padding: 7px;
+}
+#sec1 .getbtn{
+  padding: 7px;
+  font-size: 14px;
+  background: rgb(3, 7, 27);
+  color: white;
+  width: 60px;
+  cursor: pointer;
+  border-color: rgb(3, 7, 27);
+  border-radius: 2px;
+  margin-left: 100px;
+}
+#sec1 .resbtn{
+  padding: 7px;
+  font-size: 14px;
+  background: rgb(3, 7, 27);
+  color: white;
+  width: 140px;
+  cursor: pointer;
+  border-color: rgb(3, 7, 27);
+  border-radius: 2px;
+  margin-left: 45%;
+}
+.RSselect-style select{
+  font-size: 14px;
+  background-color: rgb(212, 217, 250);
+  color: rgb(3, 7, 27);
+  border: 2px solid rgb(149, 156, 196);
+  border-radius: 2px;
+  padding: 7px;
+  margin-left: 105px;
+}
+.RSselect-style-observatory select{
+  font-size: 14px;
+  background-color: rgb(212, 217, 250);
+  color: rgb(3, 7, 27);
+  border: 2px solid rgb(149, 156, 196);
+  border-radius: 2px;
+  padding: 7px;
+  margin-left: 57px;
+}
+.optext{
+  margin-top: 25px;
+  font-weight: bolder;
+  font-size: 15.5px;
+  margin-bottom: 20px;
+}
+.dec{
+  margin-left: 22px;
+}
+.set{
+  margin-left: 70px;
+}
+.skymap_obser{
+  margin-bottom: 20px;
+}
+#eventsTable{
+  border-collapse: collapse;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+#eventsTable tr th{
+  background-color: rgb(3, 7, 27);
+  color: white;
+}
+#eventsTable td, #eventsTable th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#eventsTable tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+#eventsTable th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+

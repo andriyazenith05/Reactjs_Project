@@ -1,0 +1,68 @@
+#skymap_style{
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#skymap_sec{
+  overflow: auto;
+  padding-top: 15px;
+}
+.mapObj{
+  float: left;
+}
+.mapObj input{
+  padding: 6px;
+  margin-top: 8px;
+  width: 230px;
+  font-size: 14.5px;
+  border: 2px solid rgb(149, 156, 196);
+  border-radius: 2px;
+  background-color: rgb(212, 217, 250);
+}
+#skymap_sec button{
+  padding: 7px;
+  font-size: 14px;
+  background: rgb(3, 7, 27);
+  color: white;
+  width: 60px;
+  border-color: rgb(3, 7, 27);
+  border-radius: 2px;
+  margin-left: 12px;
+}
+.skymap{
+  float: right;
+  font-weight: 600;
+  background-color: rgb(212, 217, 250);
+}
+.inputfields{
+  padding-left: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.skymap label{
+  font-size: 15px;
+  padding-right: 80px;
+}
+.star-presets{
+  display: flex;
+  margin: 40px 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+.star-presets h4{
+  padding-right: 15px;
+  color: rgb(3, 7, 27);
+}
+.star-presets .starList{
+  display: flex;
+}
+.starList li{
+  padding: 0px 10px;
+  font-weight: 600;
+  font-size: 15.5px;
+}
+.starList li:hover{
+  border-bottom: 3px solid rgb(212, 217, 250);
+}
+
+
